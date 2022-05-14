@@ -19,14 +19,8 @@ bot.remove_command('help')
 
 @bot.event
 async def on_ready():
-    print(''' 
-██████╗░██╗░██████╗░█████╗░░█████╗░██████╗░██████╗░░░░██████╗░██╗░░░██╗
-██╔══██╗██║██╔════╝██╔══██╗██╔══██╗██╔══██╗██╔══██╗░░░██╔══██╗╚██╗░██╔╝
-██║░░██║██║╚█████╗░██║░░╚═╝██║░░██║██████╔╝██║░░██║░░░██████╔╝░╚████╔╝░
-██║░░██║██║░╚═══██╗██║░░██╗██║░░██║██╔══██╗██║░░██║░░░██╔═══╝░░░╚██╔╝░░
-██████╔╝██║██████╔╝╚█████╔╝╚█████╔╝██║░░██║██████╔╝██╗██║░░░░░░░░██║░░░
-╚═════╝░╚═╝╚═════╝░░╚════╝░░╚════╝░╚═╝░░╚═╝╚═════╝░╚═╝╚═╝░░░░░░░░╚═╝░░░''')
-  #THIS BOT IS FULLY CREATED BY NEWACHO#0001. USING OF THIS BOT IS... acceptable :D
+    print('Bot started. Created by NeWacho#0001 : https://github.com/WachoLmfao/mario.py/blob/main/main%20(4).py')
+  #THIS BOT IS FULLY CREATED BY NeWacho#0001. USING OF THIS BOT IS... acceptable :D
 
 @bot.command()
 async def ping(ctx):
@@ -2452,4 +2446,4 @@ async def news(ctx):
   embed.set_image(url="https://dynaimage.cdn.cnn.com/cnn/digital-images/org/a683d86c-4769-473b-b962-10d12db70a9a.JPG")
   await ctx.send(embed=embed)
 
-bot.run('OTczNjMxNjQ1NDU2NDE2ODM4.GYgSHU.Mc2RmMDX2EqVr-VpWiN9QCYaCl-qxDFG4SGQOQ')
+bot.run('TOKEN_HERE')
